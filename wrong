@@ -1,0 +1,3 @@
+# BEA WebLogic CLASSPATH Constant 
+#COMPILE_LCP=".:${LIB_DIR}/jms.jar" 
+#COMPILE_LCP="${COMPILE_LCP}:${CDSLIB_DIR}/cdsapi.jar" 
