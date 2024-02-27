@@ -1,0 +1,3 @@
+ SampleExternalProxy.java
+       // Create an instance of External Directorory server Client Proxy 
+    public SampleExternalProxy() throws Exception { 
