@@ -1,0 +1,4 @@
+parameters.addElement(ht); 
+ 
+// Send the request to Content Delivery Server 
+Hashtable response = (Hashtable) client.execute("AuthenticationHandler.getApiContext", parameters); 
