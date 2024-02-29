@@ -1,0 +1,5 @@
+  );
+        job = job.PollUntilCompleted().ThrowOnAnyError();  // Waits for the job to complete.
+        System.IO.File.AppendAllText("log.txt", $"Exported model to {destinationUri}");
+        Console.Write($"Exported model to {destinationUri}");
+    }
