@@ -1,0 +1,5 @@
+if %w% equ 100 (set w=0&goto begin) else (set n=0&goto lp)
+:lop
+set /a a=%random%%%15+1
+set a=!code:~-%a%,1!
+if %w% equ 100 (set w=0&goto begin) else (set n=0&goto lp)
