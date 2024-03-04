@@ -1,0 +1,5 @@
+            else:
+                me_down_sound.play()
+                if not(delay % 3):
+                    screen.blit(each.destroy_images[me_destroy_index], each.rect)
+                    me_destroy_index = (me_destroy_index+1)%4
