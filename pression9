@@ -1,0 +1,6 @@
+    public void testExpression99(){
+        long start = System.currentTimeMillis();
+        double d = Math.random();
+        double a = Math.random();
+        double b = Math.random();
+        double e = Math.random();
