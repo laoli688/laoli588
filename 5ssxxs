@@ -1,0 +1,6 @@
+			scanf("%c",&nch);	/* */
+			for(k=0;k<count;k++)	/* */
+				printf("%c",nch);
+		}
+		else
+			printf("%c",ch);	/* */
