@@ -1,0 +1,5 @@
+            int readCount = 0;
+            while ((readCount = fis.read(bytes)) != -1) {
+                fos.write(bytes, 0, readCount);
+            }
+        } catch (IOException e) {
