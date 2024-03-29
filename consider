@@ -1,0 +1,3 @@
+    executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+    executor.initialize();
+    RedisMessageListenerContainer container = new RedisMessageListenerContainer();
